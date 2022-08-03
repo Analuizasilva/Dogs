@@ -11,9 +11,12 @@ const Header = () => {
           <DogSvg color={"white"} /> Dog Hero
         </Navbar.Brand>
         <Navbar.Toggle />
-        <Navbar.Collapse className="justify-content-end">
+        <Navbar.Collapse
+          className="justify-content-end"
+          style={{ fontFamily: "Helvetica" }}
+        >
           <Navbar.Text>
-            <a href="/login">Login/</a>
+            <a href="/login">Login / </a>
           </Navbar.Text>
           <Navbar.Text>
             <a href="/register"> Register</a>
