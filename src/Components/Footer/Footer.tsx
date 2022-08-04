@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Navbar } from "react-bootstrap";
-import DogSvg from "../../Assets/svg/DogSvg";
 
 const Footer = () => {
   return (
