@@ -10,20 +10,15 @@ import Header from './Components/Header/Header.tsx';
 import Login from './Pages/Login/Login.tsx';
 import Register from './Pages/Register/Register.tsx';
 import Footer from './Components/Footer/Footer.tsx';
+import Body from './Components/Body/Body';
 
 function App() {
   return (
-    <BrowserRouter>
      <div className="App">
-     <Header/>
-     <Routes>
-      <Route path='/' element={<Home/>} />
-      <Route path='/login' element={<Login/>} />
-      <Route path='/register' element={<Register/>} />
-     </Routes> 
-     <Footer/>
+      <Header />
+      <Body/>
+      <Footer />
     </div>
-    </BrowserRouter>
    
   );
 }
