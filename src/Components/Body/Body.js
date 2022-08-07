@@ -5,8 +5,6 @@ import React from "react";
 import Register from "../../Pages/Register/Register.tsx";
 import Login from "../../Pages/Login/Login.tsx";
 import Home from "../../Pages/Home/Home.tsx";
-import Header from '../Header/Header.tsx'
-import Footer from '../Footer/Footer.tsx'
 
 function Body() {
   return (
